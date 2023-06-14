@@ -65,6 +65,7 @@ img {
 
 p {
     font-size: 1.25em;
+    padding: 0 .25em;
 }
 
 figcaption, label, input, small {
