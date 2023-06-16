@@ -91,19 +91,26 @@ figcaption, label, input, small {
     color: #007d7b;
     font-weight: bold;
     font-size: .75em;
-    justify-content: left;
+    text-align: left;
 }
 
 #contact input {
-    padding: .15em 10em;
+    padding: .15em 0;
+    width: 30em;
     text-align: left;
-    margin-top: 1em;
+}
+
+#contact label {
+    display: block;
+    text-align: left;
+    padding: 15px 0 0 4em;
 }
 
 button[type=submit] {
-    padding: .25em 8em;
+    width: 25em;
+    height: 2em;
     margin-top: 1em;
-    border-radius: 5px;
+    border-radius: 8px;
     border: none;
     background-color: #007d7b;
     color: #ffffff;
