@@ -26,10 +26,18 @@ nav li {
     padding: .25em;
 }
 
+body {
+    justify-content: center;
+}
+
 body section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 0px;
     background-color: #ffffff;
     color: #000000;
-    width: 80vw;
+    width: 75vw;
     margin: 0 auto;
 }
 
@@ -37,8 +45,13 @@ body section {
     margin-top: -1.7em;
 }
 
-#gallery h2 {
-    padding-top: .5em;
+#gallery h2, #gallery p {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#gallery p {
+    max-width: 75vw;
 }
 
 section h2 {
@@ -59,8 +72,7 @@ form {
 }
 
 img {
-    padding: .5em;
-    margin: 0 auto;
+    max-width: 35vw;
 }
 
 p {
@@ -74,8 +86,18 @@ figcaption, label, input, small {
 
 #chile figcaption {
     color: #ffffff;
-    margin-top: -2.5em;
-    margin-left: 1em;
+    margin-top: -1.8em;
+    margin-left: 4.1em;
+}
+
+#guatemala figcaption {
+    color: #ffffff;
+    margin-top: -9em;
+    margin-left: 3.5em;
+}
+
+#about {
+    display: block;
 }
 
 #contact {
@@ -92,6 +114,7 @@ figcaption, label, input, small {
     font-weight: bold;
     font-size: .75em;
     text-align: left;
+    padding-left: 5px;
 }
 
 #contact input {
@@ -130,3 +153,15 @@ footer {
     text-align: center;
     padding-top: 2.5em;
 }
+
+/* @media screen and (max-width: 486px) {
+    
+}
+
+@media screen and (max-width: 881px) {
+    
+}
+
+@media screen and (max-width: 1301px) {
+    
+} */
