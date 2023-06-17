@@ -92,6 +92,7 @@ form {
 }
 
 img {
+    margin: 5px -4px;
     max-width: 95%;
     padding: 5px 0 5px .75em;
 }
@@ -113,14 +114,61 @@ figcaption, label, input, small {
 
 #guatemala figcaption {
     color: #ffffff;
-    margin-top: -9em;
-    margin-left: 3.5em;
+    margin-top: -12em;
+    margin-left: 5em;
 }
 
 #hawaii figcaption {
     color: #ffffff;
-    margin-top: -9em;
-    margin-left: 3.5em;
+    margin-top: -2em;
+    margin-left: 6em;
+}
+
+#iran figcaption {
+    margin-top: -27em;
+    margin-left: 6.9em;
+}
+
+#ireland figcaption {
+    margin-top: -26em;
+    margin-left: 6.9em;
+}
+
+#italy figcaption {
+    margin-top: -2.3em;
+    margin-left: 6.9em;
+}
+
+#moab figcaption {
+    color: #ffffff;
+    margin-top: -2.4em;
+    margin-left: 4.7em;
+}
+
+#rockymountains figcaption {
+    margin-top: -12.4em;
+    margin-left: 3em;
+}
+
+#switzerland figcaption {
+    margin-top: -12.25em;
+    margin-left: 4.75em;
+}
+
+#uk figcaption {
+    margin-top: -12.25em;
+    margin-left: 7.25em;
+}
+
+#usa figcaption {
+    margin-top: -12.25em;
+    margin-left: 7.25em;
+}
+
+#wyoming figcaption {
+    color: #ffffff;
+    margin-top: -12em;
+    margin-left: 5.6em;
 }
 
 #about {
