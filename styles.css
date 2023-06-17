@@ -27,22 +27,31 @@ nav li {
 }
 
 body {
-    justify-content: center;
+    margin: 0 auto;
 }
 
 body section {
     display: grid;
-    grid-template-columns: 36vw 36vw;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
-    column-gap: 0px;
+    grid-template-areas: 
+    "about about"
+    "gallery gallery"
+    "formText formText"
+    "formInput formInput";
     background-color: #ffffff;
     color: #000000;
-    width: 75vw;
+    width: 82%;
+    margin: 0 auto;
+}
+
+section figure {
     margin: 0 auto;
 }
 
 #gallery {
     margin-top: -1.7em;
+    grid-area: gallery;
 }
 
 #gallery h2, #gallery p {
@@ -74,8 +83,17 @@ form {
     grid-row-end: 3;
 }
 
+#formInput {
+    grid-area: formInput;
+}
+
+#formText {
+    grid-area: formText;
+}
+
 img {
-    max-width: 35vw;
+    max-width: 95%;
+    padding: 5px 0 5px .75em;
 }
 
 p {
@@ -89,8 +107,8 @@ figcaption, label, input, small {
 
 #chile figcaption {
     color: #ffffff;
-    margin-top: -1.8em;
-    margin-left: 4.1em;
+    margin-top: -1.9em;
+    margin-left: 6.5em;
 }
 
 #guatemala figcaption {
@@ -99,8 +117,15 @@ figcaption, label, input, small {
     margin-left: 3.5em;
 }
 
+#hawaii figcaption {
+    color: #ffffff;
+    margin-top: -9em;
+    margin-left: 3.5em;
+}
+
 #about {
     display: block;
+    grid-area: about;
 }
 
 #contact {
