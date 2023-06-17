@@ -230,14 +230,40 @@ footer {
     padding-top: 2.5em;
 }
 
-/* @media screen and (max-width: 486px) {
-    
+@media screen and (max-width: 486px) {
+    body section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "about"
+        "gallery"
+        "formText"
+        "formInput";
+        background-color: #ffffff;
+        color: #000000;
+        width: 82%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 881px) {
     
 }
 
-@media screen and (max-width: 1301px) {
-    
-} */
+@media screen and (min-width: 1301px) {
+    body section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "about about about"
+        "gallery gallery gallery"
+        "formText formText formText"
+        "formInput formInput formInput";
+        background-color: #ffffff;
+        color: #000000;
+        width: 82%;
+        margin: 0 auto;
+    }
+}
